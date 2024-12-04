@@ -1,0 +1,158 @@
+.popup-message {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #fff,
+}
+
+/* Success styles */
+.popup-success {
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  color: #155724;
+}
+
+/* Error styles */
+.popup-error {
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  color: #721c24;
+}
+
+/* Popup title styling */
+.popup-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0 0 0 0;
+}
+
+
+
+
+
+/* Full-page styling */
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+}
+
+.login-card {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  color: #333333;
+}
+
+/* Welcome text styling */
+.welcome-text {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+
+
+
+.signup-text {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: #666666;
+}
+
+/* Sign-up button styling */
+.signup-button {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: underline;
+  padding: 0;
+}
+
+.signup-button:hover {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+
+
+/* Register UI */
+.register-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Left side: Form container */
+.register-form-container {
+  margin-left: 50px;
+  flex: 1;
+  padding: 2rem;
+  max-width: 400px;
+  text-align: left;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.register-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333333;
+}
+
+.register-subtitle {
+  font-size: 1rem;
+  margin-bottom:2rem;
+  color: #666666;
+}
+
+/* Right side: Image container */
+.register-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.register-image {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+/* Cart Image Container */
+.image-container img {
+  width: 50%;
+  max-width: 800px;
+  height: auto;
+}
